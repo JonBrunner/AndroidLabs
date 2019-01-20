@@ -3,5 +3,8 @@
     <string name="app_name">AndroidLabs</string>
     <string name="hello_message">Bonjour!</string>
     <string name="ButtonText">Je suis un bouton</string>
-
+    <string name="Widgets">Voici mes widgets:</string>
+    <string name="Checkit">Viola! Regardez!</string>
+    <string name="Switch">Changement sur/de</string>
+    <string name="Enter">Entrez votre réponse ici:</string>
 </resources>

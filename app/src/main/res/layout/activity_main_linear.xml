@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:text="@string/Widgets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textSize="30dp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:text="@string/ButtonText"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/button2"/>
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/flag"
+                android:id="@+id/imageButton"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <CheckBox android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:text="@string/Checkit"
+                  android:layout_weight="1"/>
+        <Switch android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/Switch"
+                android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:hint="@string/Enter"
+    android:inputType="textPersonName"/>
+
+</LinearLayout>
+
